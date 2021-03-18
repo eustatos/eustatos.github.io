@@ -29,7 +29,7 @@ jobs:
           node-version: 12
       - run: npm ci
       - run: npm build
-      - run: npm export
+      - run: npm run export
 
       - name: GH Pages deploy
         # You may pin to the exact commit or the version.
