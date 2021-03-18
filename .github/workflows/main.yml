@@ -28,7 +28,7 @@ jobs:
         with:
           node-version: 12
       - run: npm ci
-      - run: npm build
+      - run: npm run build
       - run: npm run export
 
       - name: GH Pages deploy
