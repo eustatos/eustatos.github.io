@@ -43,7 +43,7 @@ jobs:
           # Where static files are.
           build_dir: out
           # Which branch to push files.
-          # branch: # optional
+          branch: gh-pages
           # The custom domain name.
           # cname: # optional
           # `yes` in case of a Jekyll site.
