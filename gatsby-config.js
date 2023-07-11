@@ -23,6 +23,7 @@ module.exports = {
             options: {
               terminal: "carbon",
               theme: "blackboard",
+	      "--deckgo-highlight-code-carbon-toolbar-display": "block",
             },
           },
         ],
